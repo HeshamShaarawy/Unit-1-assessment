@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    font-size: 34px; 
+    display: grid;
+    align-content: center;
+    text-align: center;
+
+}
+
+#result {
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+input {
+    text-align:center;
+}
+button,  input{
+    font-size: 34px;
+    height: 60px;
+    padding:0px;
+    border-radius: 5px;
+
+}
+button{
+    width: 60px;
+    border-radius: 15%;
+    background-color: grey;
+    color: whitesmoke;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: grey;
+}
