@@ -16,7 +16,7 @@ function add() {
     result += value_input
     console.log(result)
     result_div.innerText = (result)
-    document.getElementById("numb").value = ""
+    
 }
 
 function sub() {
