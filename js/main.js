@@ -9,6 +9,7 @@ let sub_btn = document.getElementById("subtract")
 add_btn.addEventListener("click", add); 
 sub_btn.addEventListener("click", sub)
 
+document.getElementById("numb").value = 1
 
 function add() {
     let value_input = parseInt(document.getElementById("numb").value)
@@ -23,6 +24,6 @@ function sub() {
     result -= value_input
     if(result < 0){result_div.style.color = "red"}
     result_div.innerText = (result)
-    document.getElementById("numb").value = ""
+
     
 }
