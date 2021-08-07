@@ -24,6 +24,5 @@ function sub() {
     result -= value_input
     if(result < 0){result_div.style.color = "red"}
     result_div.innerText = (result)
-
-    
+   
 }
