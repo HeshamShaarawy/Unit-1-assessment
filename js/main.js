@@ -15,15 +15,12 @@ function add() {
     let value_input = parseInt(document.getElementById("numb").value)
     result += value_input
     console.log(result)
-    result_div.innerText = (result)
-    document.getElementById("numb").value = ""
+    result_div.innerText = (result)  
 }
 
 function sub() {
     let value_input = parseInt(document.getElementById("numb").value)
     result -= value_input
     if(result < 0){result_div.style.color = "red"}
-    result_div.innerText = (result)
-
-    
+    result_div.innerText = (result)   
 }
