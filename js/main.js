@@ -14,7 +14,7 @@ document.getElementById("numb").value = 1
 function add() {
     let value_input = parseInt(document.getElementById("numb").value)
     result += value_input
-    console.log(result)
+    result < 0? result_div.style.color = "red" : result_div.style.color = "black"; 
     result_div.innerText = (result)  
 
 }
@@ -22,7 +22,6 @@ function add() {
 function sub() {
     let value_input = parseInt(document.getElementById("numb").value)
     result -= value_input
-
     result < 0? result_div.style.color = "red" : result_div.style.color = "black"; 
     result_div.innerText = (result)
    
