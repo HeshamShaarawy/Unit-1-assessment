@@ -22,7 +22,7 @@ function add() {
 function sub() {
     let value_input = parseInt(document.getElementById("numb").value)
     result -= value_input
-    if(result < 0){result_div.style.color = "red"}
+    result < 0? result_div.style.color = "red" : result_div.style.color = "black"; 
     result_div.innerText = (result)
    
 }
