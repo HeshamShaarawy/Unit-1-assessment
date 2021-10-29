@@ -1,5 +1,15 @@
 <img src="https://i.imgur.com/sX12DTc.png">
 
+# Deployment:(By Me)
+deployed:  https://heshamshaarawy.github.io/Unit-1-assessment/
+try it	: 
+* click "+" and "-" buttons,  
+* change the value of the input from the default value of 1 to any value.
+* click "+" and "-" buttons,
+success:
+* the total value increase and decrease with the same value of input
+* The font color of total is black as long as it is zero or positive value, changes to red when negative. 
+
 # Project 1 Assessment
 
 ## Introduction (By Instructor)
